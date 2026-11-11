@@ -1,8 +1,8 @@
 
-function NavBar(storeName){
+function NavBar(props){
     return (
         <nav>
-            <h2>{storeName}</h2>
+            <h2>{props.storeName}</h2>
             <ul>
                 <li>Home</li>
                 <li>Books</li>

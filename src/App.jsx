@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <NavBar />
+    <NavBar storeName="Mini Book Store" />
     <h1>Mini Book Store</h1>
     <p>Discover your next favourite book</p>
     </>

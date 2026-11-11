@@ -1,8 +1,8 @@
 
-function NavBar(){
+function NavBar(storeName){
     return (
         <nav>
-            <h2>Mini Book Store </h2>
+            <h2>{storeName}</h2>
             <ul>
                 <li>Home</li>
                 <li>Books</li>
